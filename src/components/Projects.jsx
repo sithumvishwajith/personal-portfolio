@@ -6,7 +6,7 @@ import './Projects.css';
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('All');
 
-  const categories = ['All','Data Analytics','Machine Learning','Deep Learning & NLP','Generative AI','Web Apps','Mobile Apps'];
+  const categories = ['All','Data Analytics','Machine Learning','Deep Learning & NLP','Generative AI'];
 
   const projects = [
     {
