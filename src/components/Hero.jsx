@@ -4,7 +4,7 @@ import { Github, Linkedin, Kaggle } from './BrandIcons';
 import './Hero.css';
 
 // Import the user's profile image
-import heroImg from '../assets/profile.jpg';
+import heroImg from '../assets/profile.png';
 
 export default function Hero() {
   return (
@@ -21,7 +21,7 @@ export default function Hero() {
           
           {/* Main Serif Title */}
           <h1 className="hero-title serif-title">
-            Sithum <br /> Bimsara
+            Sithum Bimsara <br /> Vishwajith
           </h1>
           
           {/* Orange Role Subtitle */}
@@ -55,8 +55,17 @@ export default function Hero() {
             </a>
           </div>
 
+
+        </div>
+
+        {/* Right Column: User Portrait Image */}
+        <div className="hero-portrait-container">
+          <div className="portrait-card">
+            <img src={heroImg} alt="Sithum Bimsara" className="portrait-image" />
+          </div>
+          
           {/* Social Platform Badges */}
-          <div className="social-pills-container">
+          <div className="social-pills-container profile-socials">
             <a href="https://www.linkedin.com/in/sithumbimsara" target="_blank" rel="noopener noreferrer" className="social-pill">
               <Linkedin size={16} /> <span>LinkedIn</span>
             </a>
@@ -66,13 +75,6 @@ export default function Hero() {
             <a href="https://www.kaggle.com/sithumbimsara" target="_blank" rel="noopener noreferrer" className="social-pill">
               <Kaggle size={16} /> <span>Kaggle</span>
             </a>
-          </div>
-        </div>
-
-        {/* Right Column: User Portrait Image */}
-        <div className="hero-portrait-container">
-          <div className="portrait-card">
-            <img src={heroImg} alt="Sithum Bimsara" className="portrait-image" />
           </div>
         </div>
       </div>
