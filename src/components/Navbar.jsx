@@ -5,7 +5,9 @@ import './Navbar.css';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState(() => {
+    return window.location.hash ? window.location.hash.substring(1) : 'home';
+  });
 
   const navLinks = [
     { name: 'Home', href: '#home' },
@@ -40,6 +42,30 @@ export default function Navbar() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Sync activeSection with URL Hash
+  useEffect(() => {
+    if (activeSection && window.location.hash !== `#${activeSection}`) {
+      window.history.replaceState(null, '', `#${activeSection}`);
+    }
+  }, [activeSection]);
+
+  // Handle initial scroll on page load if URL has a hash
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      // Use setTimeout to ensure DOM is fully rendered before scrolling
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          // Adjust scroll position to account for fixed navbar height if needed
+          // Or just use scrollIntoView which is usually fine
+          const y = element.getBoundingClientRect().top + window.scrollY - 80; // 80px offset for navbar
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 100);
+    }
   }, []);
 
   return (
