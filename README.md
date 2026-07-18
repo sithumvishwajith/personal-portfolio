@@ -1,29 +1,29 @@
-# Personal Portfolio
+# Sithum Bimsara - Personal Portfolio
 
-**Live Demo:** [https://sithumbimsara.vercel.app]
+**Live Demo:** [https://sithumbimsara.vercel.app](https://sithumbimsara.vercel.app)
 
 ![Portfolio Preview](./public/portfolio-preview.png)
 
-A modern, responsive personal portfolio website built with React and Vite. This portfolio is designed to showcase projects, skills, experience, and certificates, providing a comprehensive professional profile.
+A modern, responsive personal portfolio website built to showcase my background in Data Science and Analytics. This portfolio highlights my projects, technical skills, experience, and certificates, demonstrating my passion for unlocking insights and building intelligent models through mathematical rigor.
 
 ## Features
 
 - **Responsive Design**: Fully responsive layout that looks great on devices of all sizes (desktop, tablet, and mobile).
-- **Modern UI**: Clean and aesthetically pleasing user interface with smooth scrolling and interactive components.
+- **Modern UI**: Clean, dark-themed, glassmorphism UI with vibrant gradient accents.
 - **Sections Included**:
-  - **Hero**: Introduction and greeting.
-  - **About**: Personal background and professional summary.
-  - **Skills**: Display of technical and soft skills.
-  - **Projects**: Showcase of past work with links and descriptions.
+  - **Hero**: Introduction and professional summary.
+  - **About**: Personal background, education, and passions.
+  - **Skills**: Display of technical and analytical skills.
+  - **Projects**: Showcase of data science and software projects with links to code and live demos.
   - **Certificates**: Highlights of professional certifications.
-  - **Contact**: Contact information and links to social profiles.
-- **Icons**: Utilizes `lucide-react` for beautiful, scalable SVG icons.
+  - **Contact**: Contact information and links to social profiles (GitHub, LinkedIn, Kaggle).
+- **Custom Branding**: Fully customized SVG icons and PWA manifest for desktop/mobile shortcuts.
 
 ## Technologies Used
 
 - **Framework**: [React 19](https://react.dev/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
-- **Styling**: Vanilla CSS
+- **Styling**: Vanilla CSS (CSS Variables, Flexbox/Grid, Animations)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Linting**: ESLint
 
@@ -39,7 +39,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sithumvishwajith/personal-portfolio.git
    ```
 2. Navigate into the project directory:
    ```bash
@@ -79,9 +79,6 @@ src/
 └── main.jsx         # Application entry point
 ```
 
-## Customization
+## License
 
-To customize this portfolio for your own use:
-1. Update the personal information, project details, and skills in the components within `src/components/`.
-2. Replace assets (like profile pictures or resumes) in the `src/assets/` directory.
-3. Modify the styling in the respective component `.css` files or global `App.css`/`index.css` files to match your preferred theme.
+&copy; Sithum Bimsara. All rights reserved.
