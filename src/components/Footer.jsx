@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
-              <span className="logo-icon text-gradient" style={{ fontSize: '1.8rem', fontWeight: '800', lineHeight: 1 }}>σ</span>
+              <span className="logo-icon text-gradient" style={{ fontSize: '1.8rem', fontWeight: '800', lineHeight: 1 }}>SB</span>
               <span className="logo-text">Sithum</span>
             </a>
             <p className="footer-tagline">
