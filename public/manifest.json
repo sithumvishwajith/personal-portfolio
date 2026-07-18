@@ -1,0 +1,17 @@
+{
+  "name": "Sithum Bimsara",
+  "short_name": "Sithum",
+  "description": "Sithum Bimsara - Personal Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#030712",
+  "background_color": "#030712"
+}
