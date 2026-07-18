@@ -22,8 +22,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
-              <span className="logo-icon text-gradient" style={{ fontSize: '1.8rem', fontWeight: '800', lineHeight: 1 }}>SB</span>
-              <span className="logo-text">Sithum</span>
+              <span className="logo-icon text-gradient" style={{ fontSize: '2.2rem', fontWeight: '800', lineHeight: 1 }}>SB</span>
             </a>
             <p className="footer-tagline">
               Unlocking insights and building intelligent models through mathematical rigor and analytics.
