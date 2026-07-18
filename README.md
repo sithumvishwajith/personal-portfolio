@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-**Live Demo:** [Insert Deploy Link Here](https://sithumbimsara.vercel.app)
+**Live Demo:** [https://sithumbimsara.vercel.app]
 
 ![Portfolio Preview](./public/portfolio-preview.png)
 
