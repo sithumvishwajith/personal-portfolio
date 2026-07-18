@@ -72,8 +72,7 @@ export default function Navbar() {
     <nav className={`navbar ${isScrolled ? 'scrolled glass' : ''}`}>
       <div className="navbar-container">
         <a href="#home" className="navbar-logo">
-          <span className="logo-icon text-gradient" style={{ fontSize: '1.8rem', fontWeight: '800', lineHeight: 1 }}>SB</span>
-          <span className="logo-text">Sithum</span>
+          <span className="logo-icon text-gradient" style={{ fontSize: '2.2rem', fontWeight: '800', lineHeight: 1 }}>SB</span>
         </a>
 
         {/* Desktop Menu */}
