@@ -6,11 +6,11 @@ export default function Certificates() {
   const certificateItems = [
     {
       id: 1,
-      title: 'Python for Beginners',
-      issuer: 'University of Moratuwa',
-      date: 'May 2023',
-      description: 'Completed the online learning programme in Python for Beginners conducted by the Department of Computer Science & Engineering.',
-      link: '/Python_for_Beginners_E-Certificate.pdf',
+      title: 'Python',
+      issuer: 'Kaggle',
+      date: 'August 2026',
+      description: 'Successfully completed the Python course on Kaggle Learn.',
+      link: '/Kaggle_Python_Certificate.png',
     },
   ];
 
