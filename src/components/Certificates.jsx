@@ -12,6 +12,14 @@ export default function Certificates() {
       description: 'Successfully completed the Python course on Kaggle Learn.',
       link: '/Kaggle_Python_Certificate.png',
     },
+    {
+      id: 2,
+      title: 'Data Structures & Algorithms in Python',
+      issuer: 'Simplilearn SkillUP',
+      date: 'September 2026',
+      description: 'Successfully completed the online course: Data Structures & Algorithms in Python (Certificate code: 10769447).',
+      link: '#',
+    },
   ];
 
   return (
