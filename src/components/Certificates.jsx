@@ -5,20 +5,20 @@ import './Certificates.css';
 export default function Certificates() {
   const certificateItems = [
     {
+      id: 2,
+      title: 'Data Structures & Algorithms in Python',
+      issuer: 'Simplilearn SkillUP',
+      date: 'September 2026',
+      description: 'Successfully completed the online course: Data Structures & Algorithms in Python.',
+      link: '/Simplilearn_Python_Certificate.png',
+    },
+    {
       id: 1,
       title: 'Python',
       issuer: 'Kaggle',
       date: 'August 2026',
       description: 'Successfully completed the Python course on Kaggle Learn.',
       link: '/Kaggle_Python_Certificate.png',
-    },
-    {
-      id: 2,
-      title: 'Data Structures & Algorithms in Python',
-      issuer: 'Simplilearn SkillUP',
-      date: 'September 2026',
-      description: 'Successfully completed the online course: Data Structures & Algorithms in Python (Certificate code: 10769447).',
-      link: '#',
     },
   ];
 
