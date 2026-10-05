@@ -5,14 +5,6 @@ import './Certificates.css';
 export default function Certificates() {
   const certificateItems = [
     {
-      id: 2,
-      title: 'Statistics for Data Science',
-      issuer: 'Simplilearn SkillUP',
-      date: 'October 2026',
-      description: 'Successfully completed the online course: Statistics for Data Science.',
-      link: '/Simplilearn_Statistics_Certificate.png',
-    },
-    {
       id: 1,
       title: 'Python',
       issuer: 'Kaggle',
